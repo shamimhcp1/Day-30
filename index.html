@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <title>Day 30</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
     <body>
 
         <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Sess</h1>
+                     <p>Sess a compailer</p>
+                    <p>Sess installation</p>
+                    <ul>
+                        <li>mpm</li>
+                        <li>Ruby
+                            <ul>
+                                <li>Ruby Installer</li>
+                                <li>cmd > "ruby -v"</li>
+                                <li>cmd > check > "sass -v"</li>
+                                <li>cmd > install rubby sess > "gem install sass"</li>
+                                <li>sass folder> shift + open command window</li>
+                                <li>sass folder> shift + open command window > sass --watch input:output</li>
+                                <li>sass folder> shift + open command window > sass --watch sass\style.scss:css\style.css</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <br/>
+            <hr/>
+            <br/>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <i class="fa fa-search fa-4x"> Search</i>
+                    <i class="fab fa-facebook-square fa-3x pr-1"></i>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your search here">
+
+                        <div class="input-group-prepend">
+
+                            <span class="input-group-text">
+                                <a href="" class="btn btn-success"><i class="fa fa-user mr-2"></i>Submit</a>
+                            </span>
+                        </div>
+                    </div>
+                    <br/>
+
+
+                </div>
+            </div>
+            <br/>
             <div class="row">
                 <div class="col-md-12">
                     <ul class="nav nav-tabs">
@@ -18,16 +67,34 @@
                     </ul>
                     <div class="tab-content">
                         <div id="linkOne" class="tab-pane fade show active">
-                            <h3>This is heading One</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>This is heading One</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                                </div>
+                            </div>
                         </div>
                         <div id="linkTwo" class="tab-pane fade">
-                            <h3>This is heading Two</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>This is heading Two</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                                </div>
+                            </div>
                         </div>
                         <div id="linkThree" class="tab-pane fade">
-                            <h3>This is heading Three</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>This is heading Three</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -35,17 +102,43 @@
             <br/>
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item"><a href="" class="nav-link active">Link One</a> </li>
-                        <li class="nav-item"><a href="" class="nav-link">Link Two</a> </li>
-                        <li class="nav-item"><a href="" class="nav-link">Link Three</a> </li>
-                    </ul>
-                    <hr/>
                     <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="" class="nav-link active">Link One</a> </li>
-                        <li class="nav-item"><a href="" class="nav-link">Link Two</a> </li>
-                        <li class="nav-item"><a href="" class="nav-link">Link Three</a> </li>
+                        <li class="nav-item"><a href="#link1" data-toggle="pill" class="nav-link active">Link One</a> </li>
+                        <li class="nav-item"><a href="#link2" data-toggle="pill" class="nav-link">Link Two</a> </li>
+                        <li class="nav-item"><a href="#link3" data-toggle="pill" class="nav-link">Link Three</a> </li>
                     </ul>
+                    <div class="tab-content">
+                        <div id="link1" class="tab-pane fade show active">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>This is heading One</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="link2" class="tab-pane fade">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>This is heading Two</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="link3" class="tab-pane fade">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>This is heading Three</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque aut dolore ex exercitationem expedita inventore iste, laborum maxime nisi nostrum odio quis quos suscipit tempore ullam unde voluptas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
